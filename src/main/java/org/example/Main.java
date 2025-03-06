@@ -5,13 +5,19 @@ public class Main {
         String name = "Josip";
         String lastName = "Jovanovic";
         System.out.println(name + " " + lastName);
-
-        int x = 25;
-        int y = 23;
-        int result = x + y;
-        System.out.println(result);
+        printCar();
 
     } //Main Paragraph
+
+    private static void printCar() {
+        System.out.println("Hello World");
+        System.out.println(Car.carBrand("BMW"));
+        System.out.println(Car.regNumber("ABC123"));
+        System.out.println(Car.maxSpeed(100));
+        System.out.println(Car.ownerName("Josip"));
+        System.out.println(Car.carColor("Blue"));
+    }
+
 
 }
 
