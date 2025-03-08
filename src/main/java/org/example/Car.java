@@ -1,5 +1,6 @@
 package org.example;
 
+// A car class
 public class Car {
     int score = 100;
     public static String carBrand(String brand){
